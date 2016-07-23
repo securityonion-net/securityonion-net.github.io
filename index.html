@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Security Onion">
+<meta name="description" content="Peel back the layers of your network, IDS, NSM, Log Management, Hunting, intrusion detection, network security monitoring">
+<meta name="generator" content="Hugo 0.16" />
+<title>Security Onion</title>
+<!-- Favicon -->
+<link rel="shortcut icon" href="https://securityonion.net/favicon.ico">
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" href="https://securityonion.net/css/bootstrap.min.css" type="text/css">
+<!-- Custom Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://securityonion.net/font-awesome/css/font-awesome.min.css" type="text/css">
+<!-- Plugin CSS -->
+<link rel="stylesheet" href="https://securityonion.net/css/animate.min.css" type="text/css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="https://securityonion.net/css/creative.css" type="text/css">
+<link rel="stylesheet" href="https://securityonion.net/css/modals.css" type="text/css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+    </head>
+    <body id="page-top">
+
+        <!-- NAVIGATION -->
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">Security Onion</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#services">Data Types</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#portfolio">Screenshots</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Security-Onion-Solutions/security-onion/blob/master/Verify_ISO.md">Download</a>
+                </li>
+                <li>
+                    <a href="https://github.com/Security-Onion-Solutions/security-onion/wiki">Wiki</a>
+                </li>
+                <li>
+                    <a href="https://securityonionsolutions.com">Training</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="http://blog.securityonion.net">Blog</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/securityonion">@SecurityOnion</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+
+        <!-- HEADER -->
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h1>Security Onion</h1>
+            <hr>
+            <p>Peel back the layers of your network</p>
+            <a href="#about" class="btn btn-primary btn-xl page-scroll">Find out more</a>
+        </div>
+    </div>
+</header>
+
+        <!-- ABOUT -->
+<section class="bg-primary" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">About Security Onion</h2>
+                <hr class="light">
+                <p class="text-faded">Security Onion is a Linux distro for intrusion detection, network security monitoring, and log management. It&rsquo;s based on Ubuntu and contains Snort, Suricata, Bro, OSSEC, Sguil, Squert, ELSA, Xplico, NetworkMiner, and many other security tools. The easy-to-use Setup wizard allows you to build an army of distributed sensors for your enterprise in minutes!</p>
+                <a href="#services" class="btn btn-default btn-xl page-scroll">Get started!</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- SERVICES -->
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Data Types</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-2 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-exclamation-circle wow bounceIn text-primary"></i>
+                    <h3>Alert data</h3>
+                    <p class="text-muted">HIDS alerts from OSSEC and NIDS alerts from Snort/Suricata</p>
+                </div>
+            </div>
+            
+            <div class="col-md-2 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-building wow bounceIn text-primary"></i>
+                    <h3>Asset Data</h3>
+                    <p class="text-muted">Asset Data from Bro</p>
+                </div>
+            </div>
+            
+            <div class="col-md-2 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-camera wow bounceIn text-primary"></i>
+                    <h3>Full content data</h3>
+                    <p class="text-muted">Full packet capture from netsniff-ng</p>
+                </div>
+            </div>
+            
+            <div class="col-md-2 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-laptop wow bounceIn text-primary"></i>
+                    <h3>Host data</h3>
+                    <p class="text-muted">Host data via OSSEC and syslog-ng</p>
+                </div>
+            </div>
+            
+            <div class="col-md-2 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-arrows-h wow bounceIn text-primary"></i>
+                    <h3>Session data</h3>
+                    <p class="text-muted">Session data from Bro</p>
+                </div>
+            </div>
+            
+            <div class="col-md-2 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-cloud-download wow bounceIn text-primary"></i>
+                    <h3>Transaction data</h3>
+                    <p class="text-muted">http/ftp/dns/ssl/other logs from Bro</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+        <section class="no-padding" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Screenshots</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            
+            <div class="col-lg-12">
+                <a href="#portfolioModal1" class="portfolio-box portfolio-link" data-toggle="modal">
+                    <img src="img/portfolio/setup.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                
+                            </div>
+                            <div class="project-name">
+                                Our easy-to-use Setup wizard allows you to build an army of distributed sensors for your enterprise in minutes
+                            </div>
+                        </div>
+                    </div>
+                </a>
+		<br><br>
+            </div>
+            
+            <div class="col-lg-12">
+                <a href="#portfolioModal2" class="portfolio-box portfolio-link" data-toggle="modal">
+                    <img src="img/portfolio/squert.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                
+                            </div>
+                            <div class="project-name">
+                                Analyze and visualize your NIDS/HIDS alerts with Squert
+                            </div>
+                        </div>
+                    </div>
+                </a>
+		<br><br>
+            </div>
+            
+            <div class="col-lg-12">
+                <a href="#portfolioModal5" class="portfolio-box portfolio-link" data-toggle="modal">
+                    <img src="img/portfolio/capme.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                
+                            </div>
+                            <div class="project-name">
+                                Pivot to CapME to analyze full packet capture transcripts (including automatic gzip decoding) and download pcaps
+                            </div>
+                        </div>
+                    </div>
+                </a>
+		<br><br>
+            </div>
+            
+            <div class="col-lg-12">
+                <a href="#portfolioModal4" class="portfolio-box portfolio-link" data-toggle="modal">
+                    <img src="img/portfolio/elsa.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                
+                            </div>
+                            <div class="project-name">
+                                Use ELSA to slice and dice your logs and hunt for adversaries
+                            </div>
+                        </div>
+                    </div>
+                </a>
+		<br><br>
+            </div>
+            
+            <div class="col-lg-12">
+                <a href="#portfolioModal3" class="portfolio-box portfolio-link" data-toggle="modal">
+                    <img src="img/portfolio/sguil.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                
+                            </div>
+                            <div class="project-name">
+                                Pivot between multiple data types with Sguil and send pcaps to Wireshark and NetworkMiner
+                            </div>
+                        </div>
+                    </div>
+                </a>
+		<br><br>
+            </div>
+            
+            <div class="col-lg-12">
+                <a href="#portfolioModal6" class="portfolio-box portfolio-link" data-toggle="modal">
+                    <img src="img/portfolio/elsa_dashboard.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                
+                            </div>
+                            <div class="project-name">
+                                Build your own custom dashboards using ELSA
+                            </div>
+                        </div>
+                    </div>
+                </a>
+		<br><br>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+        <!-- ASIDE -->
+<aside class="bg-dark" id="aside">
+    <div class="container text-center">
+        <div class="call-to-action">
+            <h2>Ready to peel back the layers of your network?</h2>
+            <a href="https://github.com/Security-Onion-Solutions/security-onion/blob/master/Verify_ISO.md" class="btn btn-default btn-xl wow tada">Download now</a>
+        </div>
+    </div>
+</aside>
+
+        <!-- WIKI -->
+<section class="bg-primary" id="wiki">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">Want to learn more about Security Onion?</h2>
+                <a href="https://github.com/Security-Onion-Solutions/security-onion/wiki" class="btn btn-default btn-xl wow tada">Wiki</a>
+                <a href="https://securityonion.net/conference" class="btn btn-default btn-xl wow tada">Conference</a>
+                <a href="https://securityonionsolutions.com" class="btn btn-default btn-xl wow tada">Training</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- CONTACT -->
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Connect</h2>
+                <hr class="primary">
+                <p></p>
+            </div>
+            <div class="col-lg-4 text-center">
+		<a href="http://blog.securityonion.net">
+                <i class="fa fa-newspaper-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p>blog.securityonion.net</p>
+		</a>
+            </div>
+            <div class="col-lg-4 text-center">
+		<a href="https://twitter.com/securityonion">
+                <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p>@SecurityOnion</p>
+		</a>
+            </div>
+            <div class="col-lg-4 text-center">
+		<a href="https://github.com/Security-Onion-Solutions/security-onion/wiki/MailingLists">
+                <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p>Mailing List</p>
+		</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <center>Copyright &copy; Security Onion Solutions, LLC</center>
+
+
+        <!-- Portfolio Modals -->
+
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-lg-offset-0">
+                    <div class="modal-body">
+                        <h2>Our easy-to-use Setup wizard allows you to build an army of distributed sensors for your enterprise in minutes</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/setup.png" class="img-responsive img-centered" alt="">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-lg-offset-0">
+                    <div class="modal-body">
+                        <h2>Analyze and visualize your NIDS/HIDS alerts with Squert</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/squert.png" class="img-responsive img-centered" alt="">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-lg-offset-0">
+                    <div class="modal-body">
+                        <h2>Pivot to CapME to analyze full packet capture transcripts (including automatic gzip decoding) and download pcaps</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/capme.png" class="img-responsive img-centered" alt="">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-lg-offset-0">
+                    <div class="modal-body">
+                        <h2>Use ELSA to slice and dice your logs and hunt for adversaries</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/elsa.png" class="img-responsive img-centered" alt="">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-lg-offset-0">
+                    <div class="modal-body">
+                        <h2>Pivot between multiple data types with Sguil and send pcaps to Wireshark and NetworkMiner</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/sguil.png" class="img-responsive img-centered" alt="">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-lg-offset-0">
+                    <div class="modal-body">
+                        <h2>Build your own custom dashboards using ELSA</h2>
+                        <hr class="star-primary">
+                        <img src="img/portfolio/elsa_dashboard.png" class="img-responsive img-centered" alt="">
+                        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <!-- jQuery -->
+<script src="https://securityonion.net/js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="https://securityonion.net/js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="https://securityonion.net/js/jquery.easing.min.js"></script>
+<script src="https://securityonion.net/js/jquery.fittext.js"></script>
+<script src="https://securityonion.net/js/wow.min.js"></script>
+<!-- Custom Theme JavaScript -->
+<script src="https://securityonion.net/js/creative.js"></script>
+
+    </body>
+</html>
